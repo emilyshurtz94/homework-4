@@ -18,22 +18,23 @@
         <div class="container-button"> <button id="start-button">Start</button></div>
 
         <section class="hide" id="question-container">
-            <h2 id="question">Question 1</h2>
-            <button id="answer-1">Answer 1</button>
-            <button id="answer-2">Answer 2</button>
-            <button id="answer-3">Answer 3</button>
-            <button id="answer-4">Answer 4</button>
+            <h2 id="question-text">Question</h2>
         </section>
-        <section id="timer">
-            <div id="gauge"></div>
+        <section id="answers" style="display:none">
+            <button id="answer-1">a</button>
+            <button id="answer-2">b</button>
+            <button id="answer-3">c</button>
+            <button id="answer-4">d</button>
         </section>
-        <div class="end" style="display:none">
+        <section id="timer"></section>
+        <div id="end" style="display:none">
             <h1>Game Over</h1>
         </div>
         <section>
-            <div id="highscore" style="display:none"></div>
+            <div id="high-score" style="display:none"></div>
         </section>
     </main>
+    <script src="quizscript.js"></script>
     <script src="script.js"></script>
 </body>
 
